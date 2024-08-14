@@ -9,48 +9,59 @@
 * Logarítmica
 		`f(x) = ln(x)`
 * Racional
-		`f(x)=x2−42x2+3x−5​
-		$$
-		f(x) = \frac{P(x)}{Q(x)} 
-		$$
+		`f(x)=x2−42x2+3x−5​`
+  
+$$
+f(x) = \frac{P(x)}{Q(x)} 
+$$
 ___
 #### Derivadas Normais (C1)
+
 $$
 K' = 0
 $$
 ___
+
 $$
 x' = 1
 $$
 ___
+
 $$
 k.x = k
 $$
 ___
+
 $$
 x^3 = 3.x^2
 $$
 ___
+
 $$
 √x = \frac{1}{(2√x)} 
 $$
 ___
+
 $$
 e^x = e^x 
 $$
 ___
+
 $$
 lnx = \frac{1}{x}
 $$
 ___
+
 $$
 Sin(x) = Cos(x)
 $$
 ___
+
 $$
 cos(x) = - Sin(x)
 $$
 ___
+
 #### Derivadas Parciais
 
 
@@ -69,18 +80,22 @@ ___
 ##### Exemplos
 ___
 ##### Derivada Parcial com Regra da Cadeia e expressões Trigonométrica
-![[Pasted image 20240811204425.png]]
+![image](https://github.com/user-attachments/assets/78517fbc-2fe6-4ef6-8d98-4b99b4392b69)
+
 ___
 ##### Derivada Parcial com Raiz e Regra da Cadeia
-![[Pasted image 20240811204034.png]]
+![image](https://github.com/user-attachments/assets/90c9057a-aa36-44f0-8e68-0347c60c297f)
+
 ___
 
 ##### Regra da Cadeia
-![[Pasted image 20240814003055.png]]
+![image](https://github.com/user-attachments/assets/217f9cec-7495-4316-9adb-b2e8e5aa1015)
+
 #### Vetor Gradiente
 ___
 **Calcula as derivadas parciais da função em relação à *x* e a *y*, e aplica os pontos nos resultados
 ___
+
 $$
 ∇f(p)=<\frac{δf}{δx}(x)(p), \frac{δf}{δy}(y)(p)>
 $$
@@ -116,7 +131,8 @@ Fyx & xy
 $$
 
 5. Substitui os "X"s e "Y"s pelos **PONTOS CRÍTICOS**
-	`ex.: se os pontos críticos forem 0, 1 e -1
+   ex.: se os pontos críticos forem 0, 1 e -1
+
 $$
 \left(\begin{array}{cc} 
 (0,0) & (0,1) & (0,-1)\\
@@ -125,13 +141,15 @@ $$
 \end{array}\right)
 $$
 
-6. Verifica se:
+7. Verifica se:
 
-![[Pasted image 20240813015412.png]]
+![image](https://github.com/user-attachments/assets/7ae48f2c-aa69-4927-bedc-f3021f16ede5)
+
 
 ##### Exemplo
 
-![[Pasted image 20240813020603.png]]
+![image](https://github.com/user-attachments/assets/20bd8ca2-9cf7-4aa5-b1ea-5b75cbb5cba5)
+
 
 ___
 #### Multiplicadores de Lagrange
@@ -148,7 +166,8 @@ $$
 * Aplica os valores substituindo na função *condicional*
 * O resultado aplica na função *objetiva*
 
-![[Pasted image 20240813213542.png]]
+![image](https://github.com/user-attachments/assets/3a0d9b9a-be2c-4c02-a8e9-403847fa7e2e)
+
 ___
 #### Derivada Direcional
 
@@ -158,11 +177,14 @@ $$
 1. Calcula o **GRADIENTE** da função
 2. Substitui as variáveis pelos valores do **PONTO**
 3. Multiplica o resultado pelo **VETOR UNITÁRIO**
-	`obs.: se for dad um valor no formato "xi ± yj ±...", deve transformar no vetor unitário:
+   obs.: se for dad um valor no formato "xi ± yj ±...", deve transformar no vetor unitário:
+
 $$
 	|u|=√(i²+j²)
 $$
+
 $$
 	u=\frac{<i,j>}{|u|}
 $$
-##### ![[Pasted image 20240814022021.png]]
+
+![image](https://github.com/user-attachments/assets/38fa2294-d63d-48ea-880f-ac27f06a4ff3)
